@@ -11,11 +11,11 @@ greatest=${i[0]}
 
 for ((j=0; j<i; j++))
 do
-	if [ ${i[j]} -lt $small ];
+	if [ ${i[j]} -lt $small ]
 then
 	small=${i[$j]}
 elif
-	[ ${i[j]} -gt $greatest ];
+	[ ${i[j]} -gt $greatest ]
 then
 	greatest=${i[j]}
 fi
